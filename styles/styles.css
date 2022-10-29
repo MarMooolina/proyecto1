@@ -1,0 +1,22 @@
+.responsive-div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+/* media */
+@media (min-width:1000px) {
+    /* añadimos nuevos estilos */
+    .responsive-div{
+        background-color: green;
+    }
+}
+
+@media (min-width:650px) and (max-width:999px) {
+    .responsive-div{
+        background-color: blueviolet;
+        width: 200px;
+    }
+
+    
+}
