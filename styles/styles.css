@@ -1,22 +1,49 @@
-.responsive-div{
-    background-color: red;
-    height: 100px;
-    width: 100px;
+body{
+    background:url(../images/background1.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
 }
 
-/* media */
-@media (min-width:1000px) {
-    /* añadimos nuevos estilos */
-    .responsive-div{
-        background-color: green;
-    }
+.principal {
+    margin-left: 400px;
+    margin-top: 110px;
+    justify-content: center;
+    background-image: url(../images/logo.png);
+    text-align: center;
+    width: 1000px;
+    height: 800px;
+
 }
 
-@media (min-width:650px) and (max-width:999px) {
-    .responsive-div{
-        background-color: blueviolet;
-        width: 200px;
-    }
+#game-board{
+    margin-left: 400px;
+    margin-top: 110px;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    height: 800px;
 
-    
+}
+
+.all-buttons{
+    padding-top: 60%;
+}
+
+#button-startgame {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    margin-bottom:24px;
+    position: relative;
+}
+
+#button-instructions {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: white;
+    border-color: black;
+    color: black;
+    margin-bottom:24px;
 }
